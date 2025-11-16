@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Cinzel:wght@400;600&family=Montserrat:wght@200;300&display=swap');
+
+:root {
+  --color-primary: #d4a574;
+  --color-secondary: #8b5a5a;
+  --color-accent: #f4e4d7;
+  --color-dark: #2a1a1a;
+  --color-light: #fff9f3;
+  --color-gold: #cfb991;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
